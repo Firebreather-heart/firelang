@@ -10,7 +10,7 @@ while True:
             result, error = firelang.run('<stdin>',text)
 
             if error: print(error.error_as_string())
-            else:
+            elif result:
                 print(result)
     except KeyboardInterrupt:
-        print("Are you trying to leave the interpreter, type exit()\n")
+        print("Are you trying to leave the interpreter, type quench()\n")
