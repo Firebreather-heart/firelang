@@ -9,3 +9,9 @@ factor : INT|FLOAT
 if expr {
        
 }
+for i = start; i = stop ; step x {
+       expr
+}
+while cond {
+       expr
+}
